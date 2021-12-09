@@ -10,7 +10,7 @@ export function Input({ name, label, ...rest } : InputProps) {
     return(
         <FormControl>
 
-            <FormLabel htmlFor={name} >E-mail</FormLabel>
+            <FormLabel htmlFor={name}>{label} </FormLabel>
             <ChakraInput 
             name={name}
             id={name} 
