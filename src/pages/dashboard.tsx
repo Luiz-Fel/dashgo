@@ -3,7 +3,6 @@ import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import  dynamic  from "next/dynamic";
 import { ApexOptions } from "apexcharts";
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from "constants";
 
 const Chart = dynamic(() => import('react-apexcharts'), {
     ssr: false,
