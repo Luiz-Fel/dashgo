@@ -14,10 +14,11 @@ export function Pagination() {
             </Box>
             <Stack direction="row" spacing="2" >
                     <Button
-                    disabled
                     size="sm"
                     fontSize="xs"
                     width="4"
+                    colorScheme="pink"
+                    disabled
                     _disabled={{
                         bg:"pink.500",
                         cursor: "default"
