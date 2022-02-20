@@ -41,6 +41,7 @@ export function Header() {
             )}
                        
             <Logo />
+            {isWideversion && (<SearchBox />)}
 
             <Flex
             ml="auto"
