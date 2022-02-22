@@ -51,11 +51,52 @@ export default function UserList() {
                                 </Td>
                                 <Td>
                                     <Box>
-                                        <Text fontWeight="bold"> Luiz Felipe</Text>
-                                        <Text fontWeight="sm" color="gray.300"> luiz.schell.f@email.com</Text>
+                                        <Text fontWeight="bold"> John Doe</Text>
+                                        <Text fontWeight="sm" color="gray.300"> john.schell.f@email.com</Text>
                                     </Box>
                                 </Td>
                                 {isWideversion && <Td>07 de Dezembro, 2021</Td>}
+                            {isWideversion && (<Td>
+                                <Button 
+                                as="a" 
+                                size="sm" 
+                                fontSize="sm" 
+                                colorScheme="purple" 
+                                leftIcon={<Icon as={RiPencilLine} fontSize="20" />}>Editar
+                                </Button>
+                            </Td>)}
+                            </Tr>
+                            <Tr>
+                                <Td px={["4", "4", "6"]}>
+                                    <Checkbox colorScheme="pink"></Checkbox>
+                                </Td>
+                                <Td>
+                                    <Box>
+                                        <Text fontWeight="bold"> Paul Todd</Text>
+                                        <Text fontWeight="sm" color="gray.300"> paul.schell.f@email.com</Text>
+                                    </Box>
+                                </Td>
+                                {isWideversion && <Td>15 de Dezembro, 2021</Td>}
+                            {isWideversion && (<Td>
+                                <Button 
+                                as="a" 
+                                size="sm" 
+                                fontSize="sm" 
+                                colorScheme="purple" 
+                                leftIcon={<Icon as={RiPencilLine} fontSize="20" />}>Editar
+                                </Button>
+                            </Td>)}
+                            </Tr><Tr>
+                                <Td px={["4", "4", "6"]}>
+                                    <Checkbox colorScheme="pink"></Checkbox>
+                                </Td>
+                                <Td>
+                                    <Box>
+                                        <Text fontWeight="bold"> Maria  Clara</Text> 
+                                        <Text fontWeight="sm" color="gray.300"> maria.schell.f@email.com</Text>
+                                    </Box>
+                                </Td>
+                                {isWideversion && <Td>06 de Dezembro, 2021</Td>}
                             {isWideversion && (<Td>
                                 <Button 
                                 as="a" 
