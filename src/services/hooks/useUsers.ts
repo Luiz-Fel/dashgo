@@ -5,7 +5,7 @@ import { api } from "../api";
 
 
 type User = {
-    id: Key; 
+    id: string; 
     name: string; 
     email: string; 
     createdAt: string;
@@ -49,6 +49,6 @@ export async function getUsers(page: number) : Promise<GetUsersResponse> {
 
 export function useUsers(page: number) {
     return useQuery(['users', page],()  => getUsers(page), {
-        staleTime: 1000 * 5
+        staleTime: 1000 * 10
     })
 }
